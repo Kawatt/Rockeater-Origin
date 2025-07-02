@@ -1,0 +1,8 @@
+{
+    "name": "Rock eater",
+    "description": "You can't eat organic food.",
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:food"
+    }
+}

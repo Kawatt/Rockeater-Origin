@@ -1,0 +1,19 @@
+{
+	"powers": [
+		"origins:damage_from_potions",
+		"eatsarock:rock_eating",
+		"eatsarock:nightvision",
+		"eatsarock:mendpick",
+		"eatsarock:pickdamage",
+		"eatsarock:size",
+		"eatsarock:blindblock",
+		"eatsarock:blindsky",
+		"eatsarock:potiondamage",
+		"eatsarock:no_eating"
+	],
+	"icon": "minecraft:cobblestone",
+	"order": 10,
+	"impact": 2,
+	"name": "Rockeater",
+	"description": "Goblin-like creatures that live underground and feed on stone and minerals."
+}

@@ -1,0 +1,75 @@
+{
+    "name": "Skilled blacksmith",
+    "description": "You can mend any object in your mainhand every 10 minutes by pressing your primary key.",
+    "type": "origins:multiple",
+    "mend": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:equipped_item_action",
+                    "equipment_slot": "mainhand",
+                    "action": {
+                        "type": "origins:modify",
+                        "modifier": "eatsarock:percentage/repair"
+                    }
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "*:*_mendcharge",
+                    "change": -600
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:block.anvil.use ambient @a ~ ~ ~ 1 2",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.primary_active",
+            "continuous": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "*:*_mendcharge",
+            "comparison": "==",
+            "compare_to": 600
+        }
+    },
+    "mendcharge": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 600,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
+            "bar_index": 19,
+            "condition": {
+                "type": "origins:resource",
+                "resource": "*:*_mendcharge",
+                "comparison": "==",
+                "compare_to": 600
+            }
+        },
+        "max_action": {
+            "type": "origins:execute_command",
+            "command": "playsound minecraft:block.anvil.place ambient @a ~ ~ ~ 1 2",
+            "permission_level": 4
+        }
+    },
+    "fillmend": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "*:*_mendcharge",
+            "change": 1
+        },
+        "interval": 20
+    }
+}

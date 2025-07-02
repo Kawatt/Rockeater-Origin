@@ -1,0 +1,41 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:apply_effect",
+    "effect": {
+      "effect": "minecraft:blindness",
+      "duration": 30,
+      "amplifier": 1,
+      "show_particles": false
+    }
+  },
+  "interval": 1,
+  "condition": {
+    "inverted": true,
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:exposed_to_sun",
+        "inverted": true
+      },
+      {      
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient":
+          {
+            "item": "minecraft:carved_pumpkin"
+          }
+        }
+      },
+      {
+        "type": "origins:command",
+        "command": "execute if entity @s[x_rotation=30..90]",
+        "comparison": "==",
+        "compare_to": 1
+      }
+    ]
+  }
+}

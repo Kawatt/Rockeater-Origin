@@ -1,5 +1,5 @@
 {
-  "name": "Cave miner",
+  "name": "Cave Miner",
   "description": "Pickaxes do almost as much damage than an axe.",
   "type": "origins:modify_damage_dealt",
   "condition": {

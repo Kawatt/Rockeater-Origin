@@ -1,5 +1,5 @@
 {
-  "name": "Light sensitive",
+  "name": "Light Sensitive",
   "description": "Because you live underground, you recieve blindness when next to intense light or under the sun.",
   "type": "origins:action_over_time",
   "entity_action": {

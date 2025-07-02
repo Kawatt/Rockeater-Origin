@@ -17,6 +17,6 @@
         "type": "origins:execute_command",
         "command": "scale reset @s"
     },
-	"name": "One-block sized",
+	"name": "One-block Sized",
 	"description": "You're only one block tall. Perfect to go mining!"
 }

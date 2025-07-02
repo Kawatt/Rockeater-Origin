@@ -1,5 +1,5 @@
 {
-    "name": "Skilled blacksmith",
+    "name": "Skilled Blacksmith",
     "description": "You can mend any object in your mainhand every 10 minutes by pressing your primary key.",
     "type": "origins:multiple",
     "mend": {

@@ -1,6 +1,6 @@
 {
   "name": "Cave Miner",
-  "description": "Pickaxes do almost as much damage than an axe.",
+  "description": "Pickaxes do almost as much damage as an axe.",
   "type": "origins:modify_damage_dealt",
   "condition": {
     "type": "origins:equipped_item",

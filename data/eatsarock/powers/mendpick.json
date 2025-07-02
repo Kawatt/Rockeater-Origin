@@ -18,7 +18,8 @@
                 {
                     "type": "origins:change_resource",
                     "resource": "*:*_mendcharge",
-                    "change": -600
+                    "operation": "set",
+                    "change": 0
                 },
                 {
                     "type": "origins:execute_command",
@@ -59,7 +60,7 @@
         },
         "max_action": {
             "type": "origins:execute_command",
-            "command": "playsound minecraft:block.anvil.place ambient @a ~ ~ ~ 1 2",
+            "command": "playsound minecraft:block.anvil.place ambient @s ~ ~ ~ 1 2",
             "permission_level": 4
         }
     },

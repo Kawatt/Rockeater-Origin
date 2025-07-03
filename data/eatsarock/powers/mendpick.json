@@ -37,10 +37,21 @@
             "continuous": false
         },
         "condition": {
-            "type": "origins:resource",
-            "resource": "*:*_mendcharge",
-            "comparison": "==",
-            "compare_to": 600
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:command",
+                    "command": "execute if data entity @s SelectedItem.tag.Damage",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "*:*_mendcharge",
+                    "comparison": "==",
+                    "compare_to": 600
+                }
+            ]
         }
     },
     "mendcharge": {

@@ -13,12 +13,31 @@
   },
   "interval": 1,
   "condition": {
-    "type": "origins:in_block",
+    "type": "origins:raycast",
+    "distance": 8,
+    "entity": false,
     "block_condition": {
-      "type": "origins:light_level",
-      "light_type": "block",
-      "comparison": ">",
-      "compare_to": 12
-  }
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:in_tag",
+          "tag": "eatsarock:bright"
+        },
+        {
+          "type": "origins:and",
+          "conditions": [
+            {
+              "type": "origins:in_tag",
+              "tag": "eatsarock:redstone_lamps"
+            },
+            {
+              "type": "origins:block_state",
+              "property": "lit",
+              "value": true
+            }
+          ]
+        }
+      ]
+    }
   }
 }

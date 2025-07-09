@@ -3,6 +3,18 @@
     "description": "You can't eat organic food.",
     "type": "origins:prevent_item_use",
     "item_condition": {
-        "type": "origins:food"
+        "type": "apoli:and",
+        "conditions": [
+            {
+                "type": "origins:food"
+            },
+            {
+                "type": "apoli:ingredient",
+                "ingredient": {
+                    "tag": "eatsarock:onlystone"
+                },
+                "inverted": true
+            }
+        ]
     }
 }

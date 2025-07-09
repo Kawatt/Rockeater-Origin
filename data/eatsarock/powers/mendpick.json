@@ -10,7 +10,7 @@
                 {
                     "type": "origins:equipped_item_action",
                     "equipment_slot": "mainhand",
-                    "action": {
+                    "item_action": {
                         "type": "origins:modify",
                         "modifier": "eatsarock:percentage/repair"
                     }

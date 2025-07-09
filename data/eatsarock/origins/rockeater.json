@@ -11,7 +11,9 @@
 		"eatsarock:potiondamage",
 		"eatsarock:no_eating"
 	],
-	"icon": "minecraft:cobblestone",
+	"icon": {
+		"id": "minecraft:cobblestone"
+	},
 	"order": 10,
 	"impact": 2,
 	"name": "Rockeater",

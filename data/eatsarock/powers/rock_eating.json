@@ -24,7 +24,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0
         }
     },
@@ -37,7 +37,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.25
         }
     },
@@ -50,7 +50,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.25
         }
     },
@@ -63,7 +63,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.5
         }
     },
@@ -76,7 +76,7 @@
             }
         },
         "food_component": {
-            "hunger": 6,
+            "nutrition": 6,
             "saturation": 0.2
         }
     },
@@ -89,7 +89,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4,
             "snack": true
         }
@@ -103,7 +103,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.6
         }
     },
@@ -116,7 +116,7 @@
             }
         },
         "food_component": {
-            "hunger": 6,
+            "nutrition": 6,
             "saturation": 0.6
         }
     },
@@ -129,7 +129,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.2
         },
         "entity_action": {
@@ -138,7 +138,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:glowing",
+                        "id": "minecraft:glowing",
                         "duration": 80,
                         "amplifier": 0
                     }
@@ -155,7 +155,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.2
         },
         "entity_action": {
@@ -164,7 +164,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:glowing",
+                        "id": "minecraft:glowing",
                         "duration": 120,
                         "amplifier": 0
                     }
@@ -181,7 +181,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.2
         },
         "entity_action": {
@@ -190,7 +190,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:glowing",
+                        "id": "minecraft:glowing",
                         "duration": 180,
                         "amplifier": 0
                     }
@@ -207,7 +207,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.2
         },
         "entity_action": {
@@ -216,7 +216,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:haste",
+                        "id": "minecraft:haste",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -233,7 +233,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.2
         },
         "entity_action": {
@@ -242,7 +242,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:haste",
+                        "id": "minecraft:haste",
                         "duration": 160,
                         "amplifier": 1
                     }
@@ -259,7 +259,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.2
         },
         "entity_action": {
@@ -268,7 +268,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:haste",
+                        "id": "minecraft:haste",
                         "duration": 320,
                         "amplifier": 1
                     }
@@ -285,7 +285,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4
         },
         "entity_action": {
@@ -294,7 +294,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -311,7 +311,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4
         },
         "entity_action": {
@@ -320,7 +320,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 300,
                         "amplifier": 0
                     }
@@ -337,7 +337,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4
         },
         "entity_action": {
@@ -346,7 +346,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -363,7 +363,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -372,7 +372,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -389,7 +389,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -398,7 +398,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -415,7 +415,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -424,7 +424,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 800,
                         "amplifier": 1
                     }
@@ -441,7 +441,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.5
         },
         "entity_action": {
@@ -450,7 +450,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:speed",
+                        "id": "minecraft:speed",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -467,7 +467,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.5
         },
         "entity_action": {
@@ -476,7 +476,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:speed",
+                        "id": "minecraft:speed",
                         "duration": 300,
                         "amplifier": 1
                     }
@@ -493,7 +493,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.6
         },
         "entity_action": {
@@ -502,7 +502,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:hero_of_the_village",
+                        "id": "minecraft:hero_of_the_village",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -519,7 +519,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.6
         },
         "entity_action": {
@@ -528,7 +528,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:hero_of_the_village",
+                        "id": "minecraft:hero_of_the_village",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -545,7 +545,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.4
         },
         "entity_action": {
@@ -567,7 +567,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.4
         },
         "entity_action": {
@@ -589,7 +589,7 @@
             }
         },
         "food_component": {
-            "hunger": 5,
+            "nutrition": 5,
             "saturation": 0.6
         },
         "entity_action": {
@@ -598,7 +598,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 1200,
                         "amplifier": 0
                     }
@@ -606,7 +606,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:instant_health",
+                        "id": "minecraft:instant_health",
                         "duration": 1,
                         "amplifier": 1
                     }
@@ -614,7 +614,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:strength",
+                        "id": "minecraft:strength",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -622,7 +622,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 400,
                         "amplifier": 1
                     }
@@ -644,7 +644,7 @@
             }
         },
         "food_component": {
-            "hunger": 5,
+            "nutrition": 5,
             "saturation": 0.6
         },
         "entity_action": {
@@ -653,7 +653,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 1200,
                         "amplifier": 0
                     }
@@ -661,7 +661,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:instant_health",
+                        "id": "minecraft:instant_health",
                         "duration": 1,
                         "amplifier": 1
                     }
@@ -669,7 +669,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:strength",
+                        "id": "minecraft:strength",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -677,7 +677,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 600,
                         "amplifier": 1
                     }
@@ -699,7 +699,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -708,7 +708,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -725,7 +725,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.5
         },
         "entity_action": {
@@ -734,7 +734,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:fire_resistance",
+                        "id": "minecraft:fire_resistance",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -751,7 +751,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.5
         },
         "entity_action": {
@@ -760,7 +760,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:fire_resistance",
+                        "id": "minecraft:fire_resistance",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -777,7 +777,7 @@
             }
         },
         "food_component": {
-            "hunger": 6,
+            "nutrition": 6,
             "saturation": 1
         },
         "entity_action": {
@@ -786,7 +786,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 2000,
                         "amplifier": 3
                     }
@@ -794,7 +794,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:regeneration",
+                        "id": "minecraft:regeneration",
                         "duration": 200,
                         "amplifier": 1
                     }
@@ -802,7 +802,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:fire_resistance",
+                        "id": "minecraft:fire_resistance",
                         "duration": 6000,
                         "amplifier": 0
                     }
@@ -810,7 +810,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 3600,
                         "amplifier": 0
                     }
@@ -827,7 +827,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0
         }
     },
@@ -840,7 +840,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.25
         }
     },
@@ -853,7 +853,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.25
         }
     },
@@ -866,7 +866,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.1
         }
     },
@@ -879,7 +879,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 0.3
         },
         "entity_action": {
@@ -901,7 +901,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -910,7 +910,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -918,7 +918,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:strength",
+                        "id": "minecraft:strength",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -935,7 +935,7 @@
             }
         },
         "food_component": {
-            "hunger": 6,
+            "nutrition": 6,
             "saturation": 0
         },
         "entity_action": {
@@ -944,7 +944,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:absorption",
+                        "id": "minecraft:absorption",
                         "duration": 800,
                         "amplifier": 3
                     }
@@ -952,7 +952,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
+                        "id": "minecraft:slowness",
                         "duration": 800,
                         "amplifier": 5
                     }
@@ -960,7 +960,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:weakness",
+                        "id": "minecraft:weakness",
                         "duration": 800,
                         "amplifier": 1
                     }
@@ -968,7 +968,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 800,
                         "amplifier": 3
                     }
@@ -976,7 +976,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:blindness",
+                        "id": "minecraft:blindness",
                         "duration": 740,
                         "amplifier": 1
                     }
@@ -984,7 +984,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:hunger",
+                        "id": "minecraft:hunger",
                         "duration": 800,
                         "amplifier": 0
                     }
@@ -992,7 +992,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:nausea",
+                        "id": "minecraft:nausea",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -1000,9 +1000,7 @@
                 {
                     "type": "origins:damage",
                     "amount": 4,
-                    "source": {
-                        "name": "generic"
-                    }
+                    "damage_type": "generic"
                 }
             ]
         }
@@ -1016,7 +1014,7 @@
             }
         },
         "food_component": {
-            "hunger": 6,
+            "nutrition": 6,
             "saturation": 0.1
         },
         "entity_action": {
@@ -1025,7 +1023,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:jump_boost",
+                        "id": "minecraft:jump_boost",
                         "duration": 400,
                         "amplifier": 2
                     }
@@ -1033,7 +1031,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slow_falling",
+                        "id": "minecraft:slow_falling",
                         "duration": 400,
                         "amplifier": 2
                     }
@@ -1041,7 +1039,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
+                        "id": "minecraft:slowness",
                         "duration": 400,
                         "amplifier": 3
                     }
@@ -1049,7 +1047,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:weakness",
+                        "id": "minecraft:weakness",
                         "duration": 400,
                         "amplifier": 3
                     }
@@ -1057,7 +1055,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:resistance",
+                        "id": "minecraft:resistance",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -1065,7 +1063,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:blindness",
+                        "id": "minecraft:blindness",
                         "duration": 400,
                         "amplifier": 1
                     }
@@ -1073,7 +1071,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:hunger",
+                        "id": "minecraft:hunger",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -1081,7 +1079,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:nausea",
+                        "id": "minecraft:nausea",
                         "duration": 300,
                         "amplifier": 0
                     }
@@ -1089,9 +1087,7 @@
                 {
                     "type": "origins:damage",
                     "amount": 4,
-                    "source": {
-                        "name": "generic"
-                    }
+                    "damage_type": "generic"
                 },
                 {
                     "type": "origins:execute_command",
@@ -1120,7 +1116,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.1
         },
         "entity_action": {
@@ -1142,7 +1138,7 @@
             }
         },
         "food_component": {
-            "hunger": 1,
+            "nutrition": 1,
             "saturation": 0.1
         },
         "entity_action": {
@@ -1155,7 +1151,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:night_vision",
+                        "id": "minecraft:night_vision",
                         "duration": 100,
                         "amplifier": 0
                     }
@@ -1163,7 +1159,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:glowing",
+                        "id": "minecraft:glowing",
                         "duration": 140,
                         "amplifier": 0
                     }
@@ -1180,7 +1176,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.2
         },
         "entity_action": {
@@ -1193,7 +1189,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:water_breathing",
+                        "id": "minecraft:water_breathing",
                         "duration": 300,
                         "amplifier": 0
                     }
@@ -1210,7 +1206,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.1
         },
         "entity_action": {
@@ -1219,7 +1215,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
+                        "id": "minecraft:slowness",
                         "duration": 80,
                         "amplifier": 1
                     }
@@ -1236,7 +1232,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0.1
         },
         "entity_action": {
@@ -1245,7 +1241,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slowness",
+                        "id": "minecraft:slowness",
                         "duration": 80,
                         "amplifier": 1
                     }
@@ -1262,7 +1258,7 @@
             }
         },
         "food_component": {
-            "hunger": 2,
+            "nutrition": 2,
             "saturation": 0
         },
         "entity_action": {
@@ -1271,7 +1267,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:poison",
+                        "id": "minecraft:poison",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -1279,7 +1275,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:poison",
+                        "id": "minecraft:poison",
                         "duration": 40,
                         "amplifier": 2
                     }
@@ -1287,7 +1283,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:nausea",
+                        "id": "minecraft:nausea",
                         "duration": 140,
                         "amplifier": 0
                     }
@@ -1305,7 +1301,7 @@
             }
         },
         "food_component": {
-            "hunger": 3,
+            "nutrition": 3,
             "saturation": 1
         },
         "entity_action": {
@@ -1314,7 +1310,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:blindness",
+                        "id": "minecraft:blindness",
                         "duration": 20,
                         "amplifier": 0
                     }
@@ -1322,7 +1318,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:regeneration",
+                        "id": "minecraft:regeneration",
                         "duration": 80,
                         "amplifier": 0
                     }
@@ -1330,7 +1326,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:night_vision",
+                        "id": "minecraft:night_vision",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -1352,7 +1348,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.6
         },
         "entity_action": {
@@ -1361,7 +1357,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:strength",
+                        "id": "minecraft:strength",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -1378,7 +1374,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4
         },
         "entity_action": {
@@ -1387,7 +1383,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slow_falling",
+                        "id": "minecraft:slow_falling",
                         "duration": 600,
                         "amplifier": 0
                     }
@@ -1395,7 +1391,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:levitation",
+                        "id": "minecraft:levitation",
                         "duration": 40,
                         "amplifier": 2
                     }
@@ -1412,7 +1408,7 @@
             }
         },
         "food_component": {
-            "hunger": 5,
+            "nutrition": 5,
             "saturation": 0.4
         },
         "entity_action": {
@@ -1421,7 +1417,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:slow_falling",
+                        "id": "minecraft:slow_falling",
                         "duration": 400,
                         "amplifier": 0
                     }
@@ -1429,7 +1425,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:water_breathing",
+                        "id": "minecraft:water_breathing",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -1446,7 +1442,7 @@
             }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 0.4
         },
         "entity_action": {
@@ -1455,7 +1451,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:glowing",
+                        "id": "minecraft:glowing",
                         "duration": 200,
                         "amplifier": 0
                     }
@@ -1463,7 +1459,7 @@
                 {
                     "type": "origins:apply_effect",
                     "effect": {
-                        "effect": "minecraft:blindness",
+                        "id": "minecraft:blindness",
                         "duration": 200,
                         "amplifier": 0
                     }

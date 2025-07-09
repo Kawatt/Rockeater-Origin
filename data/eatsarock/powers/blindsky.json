@@ -4,7 +4,7 @@
   "entity_action": {
     "type": "origins:apply_effect",
     "effect": {
-      "effect": "minecraft:blindness",
+      "id": "minecraft:blindness",
       "duration": 30,
       "amplifier": 1,
       "show_particles": false

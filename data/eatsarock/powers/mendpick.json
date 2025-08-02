@@ -41,7 +41,7 @@
             "conditions": [
                 {
                     "type": "origins:command",
-                    "command": "execute if data entity @s SelectedItem.tag.Damage",
+                    "command": "execute if data entity @s SelectedItem.components.\"minecraft:damage\"",
                     "comparison": ">",
                     "compare_to": 0
                 },

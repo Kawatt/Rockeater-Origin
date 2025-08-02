@@ -21,14 +21,14 @@
       "conditions": [
         {
           "type": "origins:in_tag",
-          "tag": "eatsarock:bright"
+          "tag": "*:bright"
         },
         {
           "type": "origins:and",
           "conditions": [
             {
               "type": "origins:in_tag",
-              "tag": "eatsarock:can_be_lit"
+              "tag": "*:can_be_lit"
             },
             {
               "type": "origins:block_state",

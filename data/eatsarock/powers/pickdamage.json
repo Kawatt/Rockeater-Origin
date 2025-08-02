@@ -8,7 +8,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "tag": "eatsarock:pickaxes"
+        "tag": "*:pickaxes"
       }
     }
   },
